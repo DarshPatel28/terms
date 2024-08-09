@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - Spice Box</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #35424a; /* Spice Box brand color */}
+
+.intro, .user-agreement, .product-info, .order-terms, .payment-terms, .return-policy, .limitation-of-liability, .changes-to-terms {
+    background: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.intro:hover, .user-agreement:hover, .product-info:hover, .order-terms:hover, .payment-terms:hover, .return-policy:hover, .limitation-of-liability:hover, .changes-to-terms:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+
+        <header>
+            <img src="https://i.ibb.co/tX8tDrz/spice-box-high-resolution-logo.png" alt="Spice Box Logo" class="logo">
+            <h1>Terms and Conditions</h1>
+        </header>
+    
+        <section class="intro">
+            <h2>Introduction</h2>
+            <p>Welcome to Spice Box! These Terms and Conditions outline the rules and regulations for the use of our website and services. By accessing our site, you agree to comply with these terms, which are designed to ensure a safe and enjoyable shopping experience for all our customers.</p>
+        </section>
+    
+        <section class="user-agreement">
+            <h2>User Agreement</h2>
+            <p>By accessing our website, you agree to be bound by these Terms and Conditions. If you do not agree, please refrain from using our services. We encourage you to review these terms periodically, as they may be updated to reflect changes in our practices or legal requirements. Your continued use of the site signifies your acceptance of any changes.</p>
+        </section>
+    
+        <section class="product-info">
+            <h2>Product Information</h2>
+            <p>We strive to provide accurate product descriptions and pricing. However, we do not warrant that the information is error-free. If a product is listed at an incorrect price or with incorrect information, we reserve the right to refuse or cancel any orders placed for that product. We appreciate your understanding and are committed to ensuring that our product information is as accurate as possible.</p>
+        </section>
+    
+        <section class="order-terms">
+            <h2>Order Terms</h2>
+            <p>All orders are subject to acceptance and availability. We reserve the right to refuse or cancel any order for any reason, including but not limited to product availability, errors in the product description, or errors in your order. In the event of a cancellation, we will notify you as soon as possible and provide a full refund if payment has already been processed.</p>
+        </section>
+    
+        <section class="payment-terms">
+            <h2>Payment Terms</h2>
+            <p>Payment must be made at the time of order. We accept various payment methods, including major credit cards and PayPal. All payment transactions are processed securely, and we do not store your payment information. You can shop with confidence knowing that your financial information is protected through industry-standard encryption and security measures.</p>
+        </section>
+    
+        <section class="return-policy">
+            <h2>Return Policy</h2>
+            <p>Our return policy allows you to return products within 30 days of receipt. Items must be unused and in their original packaging to qualify for a refund. We believe in the quality of our products, and if you are not satisfied, we will work with you to ensure a smooth return process. Please contact our customer service team for assistance with returns, and we will guide you through the process.</p>
+        </section>
+    
+        <section class="limitation-of-liability">
+            <h2>Limitation of Liability</h2>
+            <p>Spice Box is not liable for any damages arising from the use of our website or products, to the fullest extent permitted by law. This includes indirect, incidental, or consequential damages. We recommend that you carefully read product descriptions and reviews to make informed decisions. Your satisfaction is our priority, and we are here to assist you with any concerns or issues.</p>
+        </section>
+    
+        <section class="changes-to-terms">
+            <h2>Changes to Terms</h2>
+            <p>We may update these Terms and Conditions from time to time. We will notify you of any changes by posting the new terms on our website. It is your responsibility to review these terms periodically for updates. Your continued use of the site after any changes indicates your acceptance of the new terms. We value your trust and are committed to keeping you informed about our practices.</p>
+        </section>
+    
+        <footer>
+            <p>For any questions regarding these terms, please contact us at <a href="mailto:support@spicebox.com">support@spicebox.com</a>. Our customer service team is here to assist you and ensure that your experience with Spice Box is exceptional.</p>
+        </footer>
+
+    <script src="script.js">
+        // script.js
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Terms and Conditions Loaded");
+
+    // Smooth scroll to sections
+    const links = document.querySelectorAll('h2');
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            link.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
